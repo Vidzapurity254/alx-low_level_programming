@@ -19,7 +19,3 @@ char *_strncat(char *dest, char *src, int n)
 		dest[dest_len++] = src[index];
 	return (dest);
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-
