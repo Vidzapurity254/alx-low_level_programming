@@ -1,12 +1,17 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * _putchar - prints/writes c
- * @c: The character to print
- * Return: 1, success, -1 error
+ * _print_rev_recursion - Prints a string in reverse
+ * @s: The string to be printed
+ *
+ * Return: void
  */
-
-int _putchar(char c)
+void _print_rev_recursion(char *s)
 {
-	return (write(1, &c, 1));
+	if (*s)
+	{
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
+	}
 }
+
