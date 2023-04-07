@@ -5,7 +5,7 @@
  * File: main.h
  *
  * Desc: Header file with  prototypes for all functions
- *       written in  0x13-bit_manipulation directory.
+ *       written in  0x14-bit_manipulation directory.
  */
 
 int _putchar(char c);
@@ -16,5 +16,4 @@ int set_bit(unsigned long int *n, unsigned int index);
 int clear_bit(unsigned long int *n, unsigned int index);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int get_endianness(void);
-
 #endif /* MAIN_H */
